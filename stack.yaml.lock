@@ -5,12 +5,19 @@
 
 packages:
 - completed:
-    hackage: slack-api-0.12@sha256:7bb8d067d33fdc69011b2bdb64a071873bfcbfe637a736dcaa97d41ef345b735,3463
+    cabal-file:
+      size: 5286
+      sha256: 78bed635c7c3ad302f8d4afef72e9a860030260cb0e2d720b02d7d9af53239d5
+    name: slack-api
+    version: '0.12'
+    git: https://github.com/mpickering/slack-api.git
     pantry-tree:
-      size: 2384
-      sha256: 1ca64bed931cb3397c9ab15c2316814c6f4992a791308a63a6d6e5ef80c03823
+      size: 2885
+      sha256: 890508d729553955253f3244bce4e5b12a76ae5f39264886eba7ebfbd43c360e
+    commit: d084fdbf1ab1a9e705dbd1f43645175fab0d5940
   original:
-    hackage: slack-api-0.12
+    git: https://github.com/mpickering/slack-api.git
+    commit: d084fdbf1ab1a9e705dbd1f43645175fab0d5940
 snapshots:
 - completed:
     size: 523884
